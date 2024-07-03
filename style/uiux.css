@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap");
+@font-face {
+    font-family: fonts_ttf;
+    src: url(../fonts/revonstudio_font.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: fonts_ttf;
+}
+body {
+  background-color: rgb(189,210,255); 
+  align-content: center;
+  align-items: center; 
+  text-align: center;
+}
+.clock-ux {
+  display: flex;
+  margin-top: 70%;
+  justify-content: center;
+  background-color: #fff;
+  height: 250px;
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgb(126,126,126);
+}
+.box {
+  align-items: center;
+  align-content: center;
+  margin: 15px;
+  text-align: center;
+}
+.pt {
+  margin: 50px;
+  font-size: 35px;
+  color: rgb(0,57,179);
+}
+#hour {
+  font-size: 40px;
+  color: #5b5b5b;
+}
+#minutes {
+  font-size: 40px;
+  color: #5b5b5b;
+} 
+#secuntes {
+  font-size: 40px;
+  color: #5b5b5b;
+}
+.from {
+  margin-top: 20px;
+  font-weight: bold;
+  color: rgb(0,57,179);
+}
